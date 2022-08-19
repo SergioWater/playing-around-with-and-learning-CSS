@@ -1,0 +1,56 @@
+body{
+    background-color: #f4f4f4;
+    color: crimson;
+
+    font: normal 26px arial, helvetica, sans-serif;
+    
+    /*
+    font-family: 'Courier New', Courier, monospace;
+     font-size: 16x;
+      font-weight: normal;*/
+    line-height: 1.6em;
+    margin: 5%;
+}
+.container{
+  width: 80%;
+  margin: 50px;
+}
+.box-1{
+  background-color: #333; /*background color to gray*/
+  color: #fff; /*word colors to white*/
+
+  border-right: 5px red solid;
+  border-left: 5px red solid;
+  border-top: 5px red solid;
+  border-bottom: 5px red solid;
+  border-top-style: solid;
+
+  border: 5px blue solid; /*shorter way to write the top */
+  padding: 20%;
+}
+.box-1 h1{
+  font-family:'Courier New', Courier, monospace; /*font*/
+  font-weight: 800; /*weight of font */
+  font-style: italic; /*style */
+  text-decoration: underline;/*decoration*/
+  text-transform: uppercase; /*what you can turn the text to*/
+  letter-spacing: 0.2em; /*the spacing between the letters*/
+  word-spacing: 1em;  /*the spacing between the words*/
+}
+.box-2{
+  border: 3px dotted #ccc; /*border being set to 3px dotted and the color*/
+  padding: 20px; /*padding set to 20px */
+  margin: 1%; /*box-2 margin being set to 1%*/
+}
+.categories{
+  border: 10px #ccc solid; /*border of categories set to 10 pixels gray and solid*/
+  padding: 10px; /* the padding being set to 10 px*/
+  border-radius: 15px; /*the border radius being set to 15px*/
+}
+.categories h2{
+  text-align: center; /* Setting the h2 to the middle*/
+}
+.categories ul{
+  padding: 0; /* ul have their own padding this is setting it 0*/
+  list-style: none; /* the bullet points set to nothing*/
+} 
