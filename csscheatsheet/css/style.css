@@ -1,6 +1,6 @@
 body{
     background-color: #f4f4f4;
-    color: crimson;
+    color: black;
 
     font: normal 26px arial, helvetica, sans-serif;
     
@@ -10,6 +10,30 @@ body{
       font-weight: normal;*/
     line-height: 1.6em;
     margin: 5%;
+}
+a{ /* will make all links to what you put */
+  text-decoration: none;
+  color:#000
+}
+a:hover{ 
+  color:red;
+}
+a:active{
+  color:green;
+}
+.clr{
+  clear:both;
+}
+.button
+{
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border:none;
+}
+.button:hover{
+  background-color: red;
+  color: #fff;
 }
 .container{
   width: 80%;
@@ -54,3 +78,81 @@ body{
   padding: 0; /* ul have their own padding this is setting it 0*/
   list-style: none; /* the bullet points set to nothing*/
 } 
+
+.categories li{
+  padding-bottom: 6px;
+  border-bottom: dotted 1px #333;
+  list-style-image: url();
+
+}
+.my-form{
+  padding: 20px;
+}
+.my-form .form-group{
+  padding-bottom: 15px;
+}
+.my-form label{
+  display: block;
+
+}
+.my-form input[type ="text"], .my-form textarea{
+  padding: 8px;
+  width: 100%;
+}
+.block{
+  float:left;
+  width: 33.3%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box; /* taking the border and padding and adding it to the width*/
+}
+#main-block{
+  float:left ;
+  width:70%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+#sidebar{
+  float:right ;
+  width:30%;
+  background-color: #333;
+  padding: 15px;
+  color: #fff;
+  box-sizing: border-box;
+}
+.p-box{
+  width: 800px;
+  height: 500px;
+  border: 1px solid black;
+  margin-top: 30px;
+  position: relative;
+  background-image: url('/csscheatsheet/images/bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.p-box h1{
+  position: absolute;
+  top: 100px;
+  left:200px;
+
+}
+.p-box h2{
+  position:absolute;
+  right: 100px;
+  bottom: 40px;
+}
+.fix-me{
+  position:fixed;
+  top: 400px;
+  margin-left: -5%;
+}
+.my-list li:first-child{
+  background:red;
+}
+.my-list li:last-child{
+  background:blue;
+}
+.my-list li:nth-child(5){
+  background:yellow;
+}
+
